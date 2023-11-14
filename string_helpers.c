@@ -138,7 +138,7 @@ char *concatenateStrings(char *frtString, char *scdString)
  * reverseString - Reverses a string.
  * @string: Pointer to the string.
  * 
- * Return: Void.
+ * Return: Void .
  */
 void reverseString(char *string)
 {
