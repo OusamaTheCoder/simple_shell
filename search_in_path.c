@@ -4,8 +4,7 @@ int checkFileExists(char *fullPath);
 
 /**
  * findProgram - Find a program in the path.
- * @data: A pointer to the program's data.
- * 
+ * @data: A pointer to the program's data. 
  * Return: 0 if success, error code otherwise.
  */
 int findProgram(DataOfProgram *data)
@@ -20,7 +19,8 @@ int findProgram(DataOfProgram *data)
 		return (checkFileExists(data->commandName));
 
 	free(data->tokenArray[0]);
-	data->tokenArray[0] = concatenateStrings(duplicateString("/"), data->commandName);
+	data->tokenArray[0] = concatenateStrings(duplicateString("/"),
+			data->commandName);
 	if (!data->tokenArray[0])
 		return (2);
 
@@ -33,8 +33,9 @@ int findProgram(DataOfProgram *data)
 	}
 	for (i = 0; directoryIndex[i]; i++)
 	{
-		directoryIndex[i] = concatenateStrings(directoryIndex[i], data->tokenArray[0]);
-		returnCode = checkFileExists(directoryIndex[i]);
+		directoryIndex[i] = concatenateStrings
+			(directoryIndex[i], data->tokenArray[0]);
+		returnCode = (checkFileExists(directoryIndex[i]));
 		if (returnCode == 0 || returnCode == 126)
 		{
 			errno = 0;
@@ -53,7 +54,6 @@ int findProgram(DataOfProgram *data)
 /**
  * tokenizePath - Tokenize the path into directories.
  * @data: A pointer to the program's data.
- * 
  * Return: Array of path directories.
  */
 char **tokenizePath(DataOfProgram *data)
@@ -95,8 +95,7 @@ char **tokenizePath(DataOfProgram *data)
 /**
  * checkFileExists - Checks if a file exists, is not a directory, and has
  * execution permissions for permissions.
- * @fullPath: Pointer to the full file name.
- * 
+ * @fullPath: Pointer to the full file name. 
  * Return: 0 on success, or an error code if it exists.
  */
 int checkFileExists(char *fullPath)

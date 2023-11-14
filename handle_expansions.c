@@ -96,7 +96,6 @@ void expandAlias(DataOfProgram *data)
  * addToBuffer - Append a string at the end of the buffer.
  * @buffer: Buffer to be filled.
  * @str_to_add: String to be copied into the buffer.
- * 
  * Return: Nothing, but sets errno.
  */
 int addToBuffer(char *buffer, char *str_to_add)

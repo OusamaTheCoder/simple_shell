@@ -3,7 +3,6 @@
 /**
  * getStringLength - Returns the length of a string.
  * @string: Pointer to the string.
- * 
  * Return: Length of the string.
  */
 int getStringLength(char *string)
@@ -22,7 +21,6 @@ int getStringLength(char *string)
 /**
  * duplicateString - Duplicates a string.
  * @string: String to be copied.
- * 
  * Return: Pointer to the duplicated array.
  */
 char *duplicateString(char *string)
@@ -56,7 +54,6 @@ char *duplicateString(char *string)
  * @frtString: String one, or the shorter.
  * @scdString: String two, or the longer.
  * @number: Number of characters to be compared, 0 for infinite.
- * 
  * Return: 1 if the strings are equal, 0 if the strings are different.
  */
 int compareStrings(char *frtString, char *scdString, int number)
@@ -95,7 +92,6 @@ int compareStrings(char *frtString, char *scdString, int number)
  * concatenateStrings - Concatenates two strings.
  * @frtString: First string to be concatenated.
  * @scdString: Second string to be concatenated.
- * 
  * Return: Pointer to the concatenated array.
  */
 char *concatenateStrings(char *frtString, char *scdString)
@@ -137,8 +133,7 @@ char *concatenateStrings(char *frtString, char *scdString)
 /**
  * reverseString - Reverses a string.
  * @string: Pointer to the string.
- * 
- * Return: Void .
+ * Return: Void.
  */
 void reverseString(char *string)
 {

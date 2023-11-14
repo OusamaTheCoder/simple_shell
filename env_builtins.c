@@ -3,7 +3,6 @@
 /**
  * displayEnv - Shows the environment where the shell runs.
  * @data: Struct for the program's data.
- * 
  * Return: Zero if success, or another number if declared in the arguments.
  */
 int displayEnv(DataOfProgram *data)
@@ -58,7 +57,6 @@ int displayEnv(DataOfProgram *data)
 /**
  * setEnvVariable - ...
  * @data: Struct for the program's data.
- * 
  * Return: Zero if success, or another number if declared in the arguments.
  */
 int setEnvVariable(DataOfProgram *data)
@@ -80,7 +78,6 @@ int setEnvVariable(DataOfProgram *data)
 /**
  * unsetEnvVariable - ...
  * @data: Struct for the program's data.
- * 
  * Return: ...
  */
 int unsetEnvVariable(DataOfProgram *data)

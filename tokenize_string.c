@@ -3,7 +3,6 @@
 /**
  * tokenizeData - Separates the string using a designated delimiter.
  * @data: A pointer to the program's data.
- * 
  * Return: An array of the different parts of the string.
  */
 void tokenizeData(DataOfProgram *data)
@@ -23,7 +22,7 @@ void tokenizeData(DataOfProgram *data)
 		for (j = 0; delimiter[j]; j++)
 		{
 			if (data->inputLine[i] == delimiter[j])
-				dirCounter ++;
+				dirCounter++;
 		}
 	}
 
@@ -34,7 +33,8 @@ void tokenizeData(DataOfProgram *data)
 		exit(errno);
 	}
 	i = 0;
-	data->tokenArray[i] = duplicateString(customStrtok(data->inputLine, delimiter));
+	data->tokenArray[i] = duplicateString
+		(customStrtok(data->inputLine, delimiter));
 	data->commandName = duplicateString(data->tokenArray[0]);
 	while (data->tokenArray[i++])
 	{
