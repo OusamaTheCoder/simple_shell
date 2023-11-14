@@ -120,6 +120,6 @@ $
 If you happen to use this repo, we scored `??%`
 ### Authors &copy;
 
-- @fatimaelasri01
-- @OusamaTheCoder
+- [Fatima El Asri](https://github.com/fatimaelasri01)
+- [Ousama Oujaber](https://github.com/OusamaTheCoder)
 ---
