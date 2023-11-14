@@ -4,7 +4,7 @@
  * main - Initializes the variables of the program.
  * @argc: Number of values received from the command line.
  * @argv: Values received from the command line.
- * @env: Number of values received from the command line.
+ * @env: Number of values received from the command line .
  * 
  * Return: Zero on success.
  */
