@@ -5,7 +5,6 @@
  * @number: Number to be converted to a string.
  * @string: Buffer to save the number as a string.
  * @base: Base to convert the number.
- *
  * Return: Nothing.
  */
 void convertLongToString(long number, char *string, int base)
