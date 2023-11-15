@@ -3,7 +3,6 @@
 /**
  * freeRecurrentData - Free the fields needed for each loop.
  * @data: Struct of the program's data.
- * 
  * Return: Nothing.
  */
 void freeRecurrentData(DataOfProgram *data)
@@ -23,7 +22,6 @@ void freeRecurrentData(DataOfProgram *data)
 /**
  * freeAllData - Free all fields of the data.
  * @data: Struct of the program's data.
- * 
  * Return: Nothing.
  */
 void freeAllData(DataOfProgram *data)
@@ -42,7 +40,6 @@ void freeAllData(DataOfProgram *data)
  * freePointerArray - Frees each pointer of an array of pointers,
  * and the array itself.
  * @array: Array of pointers.
- * 
  * Return: Nothing.
  */
 void freePointerArray(char **array)
