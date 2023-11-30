@@ -57,25 +57,25 @@ The Simple Shell project is a lightweight command-line interface designed to sen
 
 # Files in the Repository
 
-| Name                   | Information                                          | Relevant Files                          |
-|------------------------|------------------------------------------------------|-----------------------------------------|
-| getline_helper.c       | Contains the `_getline` function for reading lines. | getline_helper.c                        |
+| Name                   | Information                                          | Relevant Files                         |
+|------------------------|------------------------------------------------------|----------------------------------------|
+| getline_helper.c       | Contains the `_getline` function for reading lines.  | getline_helper.c                       |
 | list_builtins.c        | Handles the list of built-in commands.               | list_builtins.c                        |
 | execute_command.c      | Executes a given command.                            | execute_command.c                      |
-| free_helpers.c         | Handles the freeing of allocated memory.             | helpers_free.c                         |
-| string_helpers.c       | Provides utility functions for string operations.   | helpers_string.c                       |
-| main_shell.c           | The main file for the shell program.                 | shell.c                                |
-| tokenize_string.c      | Tokenizes strings based on delimiters.               | tokenize.c                             |
-| manage_alias.c         | Manages aliases in the shell.                        | alias_management.c                     |
-| more_builtins.c        | Additional built-in commands.                        | builtins_more.c                        |
-| handle_expansions.c    | Deals with variable expansions.                      | expansions.c                           |
-| number_helpers.c       | Helper functions for numeric operations.             | helpers_numbers.c                      |
-| shell_macros.h         | Macros used in the shell program.                    | macros.h                               |
-| env_builtins.c         | Built-in commands related to environment variables. | builtins_env.c                         |
-| manage_env.c           | Manages the environment variables.                   | env_management.c                      |
-| search_in_path.c       | Searches for a program in the PATH.                   | find_in_path.c                         |
-| print_helpers.c        | Helper functions for printing.                       | helpers_print.c                        |
-| custom_strtok.c        | Custom string tokenization.                          | strtok.c                               |
+| free_helpers.c         | Handles the freeing of allocated memory.             | free_helpers.c                         |
+| string_helpers.c       | Provides utility functions for string operations.    | string_helpers.c                       |
+| main_shell.c           | The main file for the shell program.                 | main_shell.c                           |
+| tokenize_string.c      | Tokenizes strings based on delimiters.               | tokenize_string.c                      |
+| manage_alias.c         | Manages aliases in the shell.                        | manage_alias.c                         |
+| more_builtins.c        | Additional built-in commands.                        | more_builtins.c                        |
+| handle_expansions.c    | Deals with variable expansions.                      | handle_expansions.c                    |
+| number_helpers.c       | Helper functions for numeric operations.             | numbers_helpers.c                      |
+| shell_macros.h         | Macros used in the shell program.                    | shell_macros.h                         |
+| env_builtins.c         | Built-in commands related to environment variables.  | env_builtins.c                         |
+| manage_env.c           | Manages the environment variables.                   | manage_env.c                           |
+| search_in_path.c       | Searches for a program in the PATH.                  | search_in_path.c                       |
+| print_helpers.c        | Helper functions for printing.                       | print_helpers.c                        |
+| custom_strtok.c        | Custom string tokenization.                          | custom_strtok.c                        |
 
 ---
 
@@ -117,7 +117,7 @@ $
 ```
 ---
 # Disclaimer
-If you happen to use this repo, we scored `174%`
+If you happen to use this repo, we scored `162.56%`
 ### Authors &copy;
 
 - [Fatima El Asri](https://github.com/fatimaelasri01)
